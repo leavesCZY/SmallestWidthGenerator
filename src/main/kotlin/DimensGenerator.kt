@@ -3,10 +3,10 @@ import java.io.FileOutputStream
 import kotlin.math.min
 
 /**
- * @Author: leavesC
+ * @Author: leavesCZY
  * @Date: 2021/08/24 10:46
  * @Desc:
- * @Github£ºhttps://github.com/leavesC
+ * @Githubï¼šhttps://github.com/leavesCZY
  */
 
 private const val XML_FILE_NAME = """dimens.xml"""
