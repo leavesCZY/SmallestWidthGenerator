@@ -1,10 +1,11 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
-    kotlin("jvm") version "1.5.10"
+    kotlin("jvm") version "1.9.20"
+    application
 }
 
-group = "github.leavesc"
+group = "github.leavesczy"
 version = "1.0-SNAPSHOT"
 
 repositories {
@@ -16,9 +17,13 @@ dependencies {
 }
 
 tasks.test {
-    useJUnit()
+    useJUnitPlatform()
 }
 
-tasks.withType<KotlinCompile>() {
-    kotlinOptions.jvmTarget = "1.8"
+kotlin {
+    jvmToolchain(8)
+}
+
+application {
+    mainClass.set("DimensGeneratorKt")
 }
