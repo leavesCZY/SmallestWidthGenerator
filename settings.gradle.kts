@@ -4,5 +4,4 @@ pluginManagement {
         gradlePluginPortal()
     }
 }
-
 rootProject.name = "SmallestWidthGenerator"
