@@ -12,9 +12,9 @@ private const val XML_FILE_NAME = """dimens.xml"""
 private const val XML_HEADER = """<?xml version="1.0" encoding="utf-8"?>"""
 private const val XML_RESOURCE_START_TAG = """<resources>"""
 private const val XML_RESOURCE_END_TAG = """</resources>"""
-private const val XML_DIMEN_WIDTH_TAG = """<dimen name="DIMEN_WIDTH">%ddp</dimen>"""
-private const val XML_DIMEN_TEMPLATE_TO_DP = """<dimen name="DIMEN_%ddp">%.2fdp</dimen>"""
-private const val XML_DIMEN_TEMPLATE_TO_PX = """<dimen name="DIMEN_%dpx">%.2fdp</dimen>"""
+private const val XML_DIMEN_WIDTH_TAG = """<dimen name="d_width">%ddp</dimen>"""
+private const val XML_DIMEN_TEMPLATE_TO_DP = """<dimen name="d_%ddp">%.2fdp</dimen>"""
+private const val XML_DIMEN_TEMPLATE_TO_PX = """<dimen name="d_%dpx">%.2fdp</dimen>"""
 
 private const val DESIGN_WIDTH_DP = 380
 
