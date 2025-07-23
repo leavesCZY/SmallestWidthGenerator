@@ -6,4 +6,4 @@
 
 - [一文读懂 Android 主流屏幕适配方案](https://juejin.cn/post/6999445137491230728)
 
-![](https://github.com/leavesCZY/SmallestWidthGenerator/assets/30774063/347ec891-9cd3-4d3e-b0fb-dbfe53b81401)
+![](https://github.com/user-attachments/assets/de197247-e152-4bf5-bf90-3b737f3beb53)
